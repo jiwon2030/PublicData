@@ -1,0 +1,5 @@
+external:
+  api:
+    publicData:
+      url: http://apis.data.go.kr/B551011/PhotoGalleryService1
+      key: 6fONyxT6PLFtG5ARb8XkMMX2aQxqXzu9nhMbaeiFYqvvEFCR%2FwzNBw1%2F8vUnRYQyER7fmWQ44h1NvnR40lcJQw%3D%3D

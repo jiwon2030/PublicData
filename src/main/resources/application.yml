@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: jiwon
+  profiles:
+    active: local
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:13306/jiwon
+    username: root
+    password: mysql2030
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+openAPI:
+  key: 6fONyxT6PLFtG5ARb8XkMMX2aQxqXzu9nhMbaeiFYqvvEFCR/wzNBw1/8vUnRYQyER7fmWQ44h1NvnR40lcJQw==
